@@ -39,3 +39,8 @@ p1.move(-5, 20)
 print(p1.get_pos())
 
 p1.voice()
+
+# class Pegasus(Horse, Eagle):
+    def __init__(self):
+        Horse.__init__(self)
+        Eagle.__init__(self) # чтобы не путаться в наследовании классов, можно напрямую обратиться к родительским классам вот так.
